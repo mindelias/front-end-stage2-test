@@ -1,8 +1,59 @@
 @import "../../common/variable.scss";
 
 .small-cards {
-  background:$mainWhite;
-  padding: 1rem 1.5rem 3rem 1.5rem;
+  background: $mainWhite;
+  padding: 1rem 1.5rem 3rem 1rem;
   box-shadow: $shadow;
-  height: 12rem;
+  height: 13rem;
+  margin: 0rem 3rem 2rem 4rem;
+  border-radius: 5px;
+  &-img {
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+    margin-bottom: 10px;
+  }
+  p {
+    font-family: SourceSansPro, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #13244e;
+  }
+
+  &-middle {
+    width: 95%;
+    height: 71px;
+    border-radius: 8px;
+    background-color: #f0f3f9;
+    padding: 2.7rem;
+    margin: 1rem;
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      text-align: center;
+      margin: -1.2rem;
+    }
+  }
+}
+
+.row1 {
+  border-bottom: $borderBottom;
+}
+
+@media screen and (max-width: 1016px) {
+  .small-cards-middle {
+    height: 10px;
+    padding: 1rem;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 620px) {
+  .small-cards {
+    display: none;
+  }
 }

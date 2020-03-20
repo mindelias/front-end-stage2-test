@@ -1,16 +1,20 @@
-import './smallCards.scss';
+import "./smallCards.scss";
+import "../../common/variable.scss";
 
-import React from 'react'
+import React from "react";
 
-function SmallCards() {
-    return (
-        <div className = 'small-cards'>
-
-            
-        </div>
-    )
+function SmallCards({ img, text1, text2 }) {
+  return (
+    <div className="small-cards">
+      <div className="row row1">
+        <img className = 'small-cards-img' src={img}></img>
+        <p>{text1}</p>
+      </div>
+      <div className="small-cards-middle">
+        <h1>{text2}</h1>
+      </div>
+    </div>
+  );
 }
 
-export default SmallCards
-
-
+export default SmallCards;

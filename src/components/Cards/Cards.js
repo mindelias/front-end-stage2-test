@@ -6,7 +6,7 @@ import { Meter } from "grommet";
 
 function Cards({ img, img2, text, text2, iconG, iconR }) {
   return (
-    <div className="big-cards mb-5 ml-5">
+    <div className="big-cards mb-5 ml-5 xs-col-12">
       <ul className="row inner-row1 text-center">
         <img src={img} alt="img1" className="mr-3 img-in-card"></img>
         <h5 className="mr-3">{text}</h5>
@@ -18,7 +18,7 @@ function Cards({ img, img2, text, text2, iconG, iconR }) {
         </p>
       </ul>
       <div className="row px-5 parent">
-        <div className="col-4 ml-7">
+        <div className="col-4 ml-7 p-sm-0 p-xs-0">
           <Meter
             type="circle"
             width="200"

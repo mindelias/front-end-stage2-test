@@ -7,6 +7,7 @@
   width: 100%;
   padding: 1.5rem 1rem;
   position: relative;
+  border-radius: 5px;
 }
 ul {
   display: flex;
@@ -17,19 +18,21 @@ ul {
 .img-in-card {
   width: 2rem !important;
 }
-.box,.box-green{
-    text-align: center;
+.box,
+.box-green {
+  text-align: center;
+  display: inline;
 }
 .box {
   padding: 0.2rem 1.1rem;
   border-radius: 6px;
   background-color: rgba(81, 44, 98, 0.2);
-//    text-align: center;
+  //    text-align: center;
 }
 .box-green {
   background-color: rgba(77, 213, 153, 0.2);
   font-size: 1.4rem;
-   border-radius: 6px;
+  border-radius: 6px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -38,29 +41,82 @@ ul {
   color: #4dd599;
   margin-left: 8rem;
   // margin-right: 1rem;
-  padding: 0.1rem .5rem;
+  padding: 0.1rem 0.5rem;
   position: absolute;
-  left:68%
+  left: 68%;
 }
-.rings{
+.rings {
   // width: 13rem!important;
-  height: 14rem!important;
+  height: 14rem !important;
 }
-.inner-card img{
-  max-width: 5rem!important;
-  max-height: 4rem!important;
+.inner-card img {
+  max-width: 5rem !important;
+  max-height: 4rem !important;
 }
 
-.parent{
+.parent {
   position: relative;
 }
- .float-in-middle{
-   position: absolute;
-   top:27%;
-   left:26.5%;
-   & strong{
-     font-weight: 700;
-     font-size: 2rem;
-   }
- }
- 
+.float-in-middle {
+  position: absolute;
+  top: 27%;
+  left: 26.5%;
+  & strong {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1016px) {
+  
+  .parent .ml-7 {
+    margin: -2rem 8rem;
+    min-width: 10rem;
+  }
+  .box {
+    max-width: 6rem !important;
+  }
+  .box-green {
+    display: none;
+  }
+  .inner-card {
+    display: none;
+  }
+  .float-in-middle {
+    top: 37%;
+    left: 48%;
+    & strong {
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 620px) {
+  .big-cards {
+    width: 140% !important;
+    margin: 3rem 8rem;
+  }
+  .parent .ml-7 {
+    margin: -2rem 3rem;
+    min-width: 10rem;
+  }
+  .float-in-middle {
+    top: 29%;
+    left: 35%;
+    & strong {
+      font-weight: 500;
+      font-size: 20px;
+    }
+}
+}
+
+@media screen and (max-width: 500px) {
+  
+  .parent .ml-7 {
+    margin: -3rem 0rem;
+    min-width: 10rem;
+  }
+   
+}

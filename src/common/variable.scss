@@ -10,8 +10,9 @@ $third-section-gray: grey;
 
 
 // Box-Shadow
-$shadow: 0rem 1rem 5rem rgba(#666464, 0.2);
-
+$shadow:  0 7px 64px 0 rgba(19, 36, 78, 0.07);
+$borderBottom: 1px dashed rgba(grey, 0.4);
+ 
 // custom Margin
 $margin-sm: 3rem ;
 $margin-mid: 5rem ;

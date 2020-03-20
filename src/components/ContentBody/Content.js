@@ -20,6 +20,7 @@ function Content() {
           img2={ring1}
           iconG={IconG}
           iconR={IconR}
+          color="#6915cf"
         />
         <Cards
           img={icon3}
@@ -28,6 +29,7 @@ function Content() {
           img2={ring1}
           iconG={IconG}
           iconR={IconR}
+          color="#fb0091"
         />
       </div>
       <div className="col-5">
@@ -41,7 +43,11 @@ function Content() {
           text1="Approved Budget Reassignment Status"
           text2="373"
         />
-        <SmallCards img={redcon} text1="Declined Budget Reassignment Status" text2= '372'/>
+        <SmallCards
+          img={redcon}
+          text1="Declined Budget Reassignment Status"
+          text2="372"
+        />
       </div>
     </div>
   );

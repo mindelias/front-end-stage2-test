@@ -1,0 +1,24 @@
+@import "../../common/variable.scss";
+
+.barchartCont {
+  background-color: $mainWhite;
+  box-shadow: $shadow;
+  padding: 1rem;
+//   margin-right: 20px;
+    border-radius: 6px;
+  .grn {
+    border-radius: 8.5px;
+    background-color: #eee;
+    padding: 0.15rem 0.7rem;
+    margin: 0 0.8rem;
+    color: #4abba4;
+  }
+
+  .rd {
+    padding: 0.15rem 0.7rem;
+    margin: 0 0.8rem;
+    border-radius: 8.5px;
+    background-color: #eee;
+    color: rgb(238, 2, 2);
+  }
+}

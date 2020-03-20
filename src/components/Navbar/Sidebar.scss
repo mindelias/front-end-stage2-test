@@ -1,0 +1,28 @@
+@import "../../common/variable.scss";
+
+.sideBarCont {
+  padding: 1rem;
+  &-img {
+    width: 9.8rem;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  li {
+    color: $mainWhite;
+    font-family: SourceSansPro;
+    // font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    margin: 1.5rem 1.5rem 1.5rem -20px ;
+    &:first-child {
+      background-color: #0093dd;
+      padding: 0.9rem 0.8rem;
+      margin-top: 2rem;
+      border-radius: 5px;
+    }
+  }
+}

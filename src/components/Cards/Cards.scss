@@ -1,0 +1,66 @@
+@import "../../common/variable.scss";
+
+.big-cards {
+  background-color: $mainWhite;
+  box-shadow: $shadow;
+  height: 20rem;
+  width: 100%;
+  padding: 1.5rem 1rem;
+  position: relative;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  //  justify-content: space-between;
+}
+
+.img-in-card {
+  width: 2rem !important;
+}
+.box,.box-green{
+    text-align: center;
+}
+.box {
+  padding: 0.2rem 1.1rem;
+  border-radius: 6px;
+  background-color: rgba(81, 44, 98, 0.2);
+//    text-align: center;
+}
+.box-green {
+  background-color: rgba(77, 213, 153, 0.2);
+  font-size: 1.4rem;
+   border-radius: 6px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #4dd599;
+  margin-left: 8rem;
+  // margin-right: 1rem;
+  padding: 0.1rem .5rem;
+  position: absolute;
+  left:68%
+}
+.rings{
+  // width: 13rem!important;
+  height: 14rem!important;
+}
+.inner-card img{
+  max-width: 5rem!important;
+  max-height: 4rem!important;
+}
+
+.parent{
+  position: relative;
+}
+ .float-in-middle{
+   position: absolute;
+   top:27%;
+   left:26.5%;
+   & strong{
+     font-weight: 700;
+     font-size: 2rem;
+   }
+ }
+ 

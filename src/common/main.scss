@@ -1,0 +1,36 @@
+.col-left
+ {
+  height: 90vh;
+}
+.col-right{
+
+
+}
+.col-left {
+  //   width: 243px;
+  //   height: 1024px;
+  background-color: #13244e;
+  display: block;
+  // background-image: linear-gradient(to top, #1fab89, #75c5f0), ;
+  // width: 243px;
+  // height: 1024px;
+}
+
+.margin-auto{
+  margin: 1rem 4rem;
+}
+.ml-7{
+  margin-left: 6rem;
+}
+
+@media screen and (max-width: 992px) {
+   
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .col-left{
+    display: none;
+  }
+  
+}

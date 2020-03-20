@@ -4,7 +4,7 @@ import "../../common/variable.scss";
 import "../../common/main.scss";
 import { Meter } from "grommet";
 
-function Cards({ img, img2, text, text2, iconG, iconR }) {
+function Cards({ img, img2, text, text2, iconG, iconR , color}) {
   return (
     <div className="big-cards mb-5 ml-5 xs-col-12">
       <ul className="row inner-row1 text-center">
@@ -29,7 +29,7 @@ function Cards({ img, img2, text, text2, iconG, iconR }) {
               {
                 value: 55,
                 label: "sixty",
-                color: "#6915cf",
+                color: `${color}`,
                 onClick: () => {}
               }
             ]}

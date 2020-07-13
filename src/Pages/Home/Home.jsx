@@ -102,7 +102,7 @@ function Home() {
           <Col className="align-self-center txt-2" xs="2">
             9-10am
           </Col>
-          <Col className="big-card py-2 px-3" xs="10">
+          <Col className="big-card" xs="10">
             <p className="txt-2 font-weight-normal">
               Your cleaner is coming in to give your apartment the looks
             </p>

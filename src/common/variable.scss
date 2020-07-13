@@ -1,12 +1,20 @@
 // colors
-$bright-red: hsl(12, 88%, 59%);
-$dark-blue: hsl(228, 39%, 23%);
-$mainWhite: #fff;
-$dark-grayish-blue: hsl(227, 12%, 61%);
-$very-dark-blue: hsl(233, 12%, 13%);
-$very-pale-red: hsl(13, 100%, 96%);
-$very-light-gray: hsl(0, 0, 98%);
-$third-section-gray: grey;
+$yellow: #ffbe56;
+$brightYellow: #f9f5e1;
+$Green: #00c267;
+$lightGreen: #e0f9ec;
+$veryLightGreen:#f9fffb;
+$lightBlue: #e4f5fd;
+$purple: #c4b7f9;
+$lightBrown:#f3ab8e;
+$icon-gray:  #9fa3b7;
+
+:export{
+    yellow:$yellow;
+    lightGreen:$lightGreen;
+    green:$Green;
+    lightYellow:$brightYellow;
+}
 
 
 // Box-Shadow

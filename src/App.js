@@ -1,14 +1,15 @@
 import React from "react";
 
 import "./App.css";
+import './common/variable.scss'
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import Dashboard from "./components/Dashboard";
+import Home from "./Pages/Home/Home";
 
 function App() {
   return (
     <div className="App">
-      <Dashboard />
+      <Home />
     </div>
   );
 }

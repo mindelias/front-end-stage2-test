@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+   background-color:white;
+   max-height: 110vh;
+    
 }
 
 .html{
@@ -10,7 +12,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
- 
+ [class*="col-"] {
+    padding:0!important
+}
 
 
 

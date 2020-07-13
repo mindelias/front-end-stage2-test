@@ -1,4 +1,5 @@
 import React from "react";
+import {Button} from 'reactstrap'
 import "./Cards.scss";
 import "../../common/variable.scss";
 import "../../common/main.scss";
@@ -55,9 +56,7 @@ function Cards({ img, img2, text, text2, iconG, iconR , color}) {
           <div className="row  mt-3  ml-3">
             <img className="col-4 offset-md-2 mr-0 pr-0" src={iconR}></img>
             <div className="col-6 ml-0">
-              <p className="">
-                Total <strong> CAPEX </strong> Balance
-              </p>
+               <Button>Testing Reactstrap</Button>
               <p>N 32,000,000</p>
             </div>
           </div>

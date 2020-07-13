@@ -7,7 +7,7 @@ import React from "react";
 function SmallCards({ text1, text2, text3, text4, text5, color1, color2, toggle}) {
   return (
     <Row className='mb-3'>
-      <Col xs="8" className="left px-3 pt-2" style={{ backgroundColor: `${color1}` }}>
+      <Col xs="8" className="left" style={{ backgroundColor: `${color1}` }}>
         <p>
           {text1}
           <br />
@@ -18,7 +18,7 @@ function SmallCards({ text1, text2, text3, text4, text5, color1, color2, toggle}
       <Col
         xs="4"
         onClick={toggle}
-        className="right px-2 pt-2"
+        className="right"
         style={{ backgroundColor: `${color2}` }}
       >
         <p className='text-white font-weight-normal'>
